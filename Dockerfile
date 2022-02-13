@@ -12,7 +12,7 @@ RUN GOOS=linux GOARCH=amd64 go build -o main .
 
 RUN mkdir publish && cp main publish && cp -r resources publish
 
-FROM scratch
+FROM docker.io/bitnami/minideb:buster
 
 COPY --from=builder /app/publish /
 
