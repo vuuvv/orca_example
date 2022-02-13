@@ -14,7 +14,7 @@ RUN mkdir publish && cp main publish && cp -r resources publish
 
 FROM scratch
 
-COPY --from=builder /dist/publish /
+COPY --from=builder /app/publish /
 
 ENV GIN_MODE=release
 
