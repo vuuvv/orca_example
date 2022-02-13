@@ -11,14 +11,7 @@ func main() {
 	app := orca.NewApplication()
 	authMiddleware := server.MiddlewareJwt(
 		app.GetHttpServer().GetConfig(),
-		server.SimpleAuthorization{
-			AnonymousRoutes: map[string]bool{
-				"/user":        true,
-				"/user/login":        true,
-				"/user/login/errors": true,
-				"/user/_init_":       true,
-			},
-		},
+		server.NoAuthorization{},
 	)
 	app.Use(server.MiddlewareId, gin.Logger(), gin.Recovery(), authMiddleware).Mount(
 		controllers.UserController,

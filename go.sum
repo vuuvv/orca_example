@@ -485,8 +485,8 @@ github.com/vuuvv/govalidator v0.12.0 h1:GCj4JOjwCMg6vQ6Jm9ZCSSwLvA+V/jPiU7WwT/Rd
 github.com/vuuvv/govalidator v0.12.0/go.mod h1:maCqXVh0WzQqvOrYqg6PBJFqyIvKcpexWOAY9rrh8ng=
 github.com/vuuvv/mapstructure v1.4.6 h1:tQ7lxTUzQ2rz3uDe1khTE3vxNo4+fVnQJMvaRX/Mzp8=
 github.com/vuuvv/mapstructure v1.4.6/go.mod h1:FZ9uqRGMQr+nW2rGJBwDVbtWqoT83aVp5teUT335r+Y=
-github.com/vuuvv/orca v0.0.7 h1:uYN2JvfODIG+jeP1uVb9Zd/iHxy1cr3/1IJ5P/w7ySw=
-github.com/vuuvv/orca v0.0.7/go.mod h1:AckIds/UiloKF9eVYefcpLlSJ5bxBTn0Ydw4piwYlS8=
+github.com/vuuvv/orca v0.0.8 h1:Q1PI/j5TapyIDwiVh1+EZYIVlm4g+YuYkGLVZkTskW4=
+github.com/vuuvv/orca v0.0.8/go.mod h1:AckIds/UiloKF9eVYefcpLlSJ5bxBTn0Ydw4piwYlS8=
 github.com/vuuvv/snowflake v0.0.3 h1:7GGwZciAa3c7AAAOZUpikiSa6QHEI3jecvyLpmTzH7E=
 github.com/vuuvv/snowflake v0.0.3/go.mod h1:Wy6GH78HlriA91gWjQ5Foh8kfJTf7yPAxA0TdpmF/PI=
 github.com/vuuvv/viper v1.10.5 h1:MRf8GoXo7PJv2GO/KFtrQYyXBpBH5wRjB4NUjJA53sg=

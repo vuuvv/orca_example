@@ -2,7 +2,10 @@ module github.com/vuuvv/orca-example
 
 go 1.17
 
-require github.com/vuuvv/orca v0.0.7
+require (
+	github.com/gin-gonic/gin v1.7.7
+	github.com/vuuvv/orca v0.0.8
+)
 
 require (
 	cloud.google.com/go v0.99.0 // indirect
@@ -12,7 +15,6 @@ require (
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
-	github.com/gin-gonic/gin v1.7.7 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
 	github.com/go-playground/validator/v10 v10.4.1 // indirect
