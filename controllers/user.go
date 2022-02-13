@@ -45,7 +45,15 @@ func (this *userController) edit(ctx *gin.Context) {
 }
 
 func (this *userController) delete(ctx *gin.Context) {
-	resp, _ := http.Get("https://www.taobao.com")
-	bs, _ := ioutil.ReadAll(resp.Body)
-    this.Send(string(bs))
+	resp, err := http.Get("https://www.taobao.com")
+	if err != nil {
+		this.SendError(err)
+		return
+	}
+	bs, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		this.SendError(err)
+		return
+	}
+	this.Send(string(bs))
 }
