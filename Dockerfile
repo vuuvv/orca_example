@@ -1,4 +1,4 @@
-FROM golang:1.17 as builder
+FROM registry.aliyuncs.com/vuuvv/orca:0.0.9 as builder
 
 # 启用go module
 ENV GO111MODULE=on \
